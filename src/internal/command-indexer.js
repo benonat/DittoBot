@@ -1,10 +1,6 @@
 const commands = require('./directory-loader')('../commands')
 
-const misc = [
-  'If you want more information on the commands, check the command reference at http://docs.thesharks.xyz/commands.',
-  'For further questions, join our server: discord.gg/wildbot',
-  'Like what we do? Consider supporting my developer at Patreon! <https://www.patreon.com/Dougley>' // escaping embed because we're not evil
-]
+const misc = []
 
 let result = {}
 const aliases = new Map()
